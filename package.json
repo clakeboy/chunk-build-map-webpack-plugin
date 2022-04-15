@@ -1,0 +1,25 @@
+{
+  "name": "chunk-build-map-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clakeboy/chunk-build-map-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "chunk",
+    "build",
+    "map"
+  ],
+  "author": "Clake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clakeboy/chunk-build-map-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/clakeboy/chunk-build-map-webpack-plugin#readme"
+}
