@@ -1,7 +1,7 @@
-import path from 'path';
-import fs from 'fs';
+const path = require('path');
+const fs = require('fs');
 
-export default class ChunkBuildMapPlugin {
+class ChunkBuildMapPlugin {
     options = {
         saveName: 'chunk_build_map.txt',
         output: '',
@@ -53,3 +53,5 @@ function getChunkByFilename(chunks, filename) {
     });
     return match.length > 0 ? match[0] : null;
 }
+
+module.exports = ChunkBuildMapPlugin;
