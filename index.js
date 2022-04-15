@@ -1,13 +1,14 @@
 const path = require('path');
 const fs = require('fs');
 
+const options = {
+    saveName: 'chunk_build_map.txt',
+    output: '',
+}
+
 class ChunkBuildMapPlugin {
-    options = {
-        saveName: 'chunk_build_map.txt',
-        output: '',
-    }
     constructor(opts) {
-        this.options = Object.assign({},this.options,opts)
+        this.options = Object.assign({},options,opts)
     }
     apply(compiler) {
         compiler.hooks.emit.tap('CustomPlugin', (compilation,cb)=>{
